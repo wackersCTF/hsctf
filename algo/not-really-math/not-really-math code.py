@@ -1,3 +1,4 @@
+# nc not-really-math.hsc.tf 1337
 # since addition comes b4 multiplication, i split the characters by multiplication
 # 1. split the problem by multplication 
 # 2. calculate the addition part and replace it
