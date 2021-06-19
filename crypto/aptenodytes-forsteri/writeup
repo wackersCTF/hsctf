@@ -1,1 +1,5 @@
 aptenodytes-forsteri
+
+each character in the flag.txt is encoded to become an unique character.
+you can plug in the entire alphabet and use it as a key.
+flag is flag{QWERTYUIOP}
