@@ -6,13 +6,13 @@
 # 4. take the mod of it
 # addition part looks like 6a8 or 3a5a5a4
 
-def multiplyList(myList): #copied and pasted cuz too lazy lol
+def multiplyList(myList): #copied and pasted from stack overflow or somewhere cuz too lazy lol
     result = 1
     for x in myList:
          result = result * x
     return result
 
-problem = "3a5a5a4" # get the thingy that needs to be calculated
+problem = input() # get the thingy that needs to be calculated
 problem = problem.split("m") # split the problem by multiplication
 print(problem) # you get each part in a separate item (addition parts are all separated)
 for i in problem: 
