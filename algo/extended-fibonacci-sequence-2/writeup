@@ -1,0 +1,15 @@
+6/16/2021 HSCTF
+
+By prince_of_tennis 
+
+I actually did not manage to get the flag for this challenge, but I ended up with the first part of the code to solve it.
+
+The problem our team had with this challenge was with sending input to the terminal. Oftentimes I got a TLE error which was
+frustating since I knew the actual "solving part" of my code was correct.
+
+I attached two py files in this folder. One was written by my teammate Wyl3Wak which precomputes solutions to avoid the problem
+with the time limit. My approach is probably slower and doesn't work though since I didn't get the terminal working, I'm not
+exactly sure.
+
+
+The code is very similar to extended-fibonacci
