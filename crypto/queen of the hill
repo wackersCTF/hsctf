@@ -1,0 +1,7 @@
+Given rtca{vbuhp_kaiq_gfj_nx_rda_ujw}
+and the encryption key : 16 25 8 14 19 5 15 17 3
+We can infer that this uses hill cipher (in the name, duh)
+use https://www.dcode.fr/hill-cipher
+Plug in the values right to left up to down in a 3x3 matrix, and boom!
+You have the flag!
+flag{climb_your_way_to_the_top}
