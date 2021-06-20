@@ -1,3 +1,33 @@
 6/16/2021 HSCTF
 
 By prince_of_tennis (credits to wyl3waK for actually doing the terminal work to get the flag).
+
+See the py file for comments and specific descriptions of how the code works. I apologize upfront 
+if the explanations are somewhat confusing; I'm not that great of a writeup writer. 
+
+The program can be summarized in 3 parts: fib, seq, and the summation of seq. I strongly suggest
+first reading the pdf in this folder which is the exact wording of the problem. 
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+SUMMARY:
+1. fib(n) essentially calculates the nth fibonacci problem (stolen from stack overflow)
+
+  It works by storing previously calculated values in a dictionary (where each key is n and the value is the nth fibonacci number).
+  The rest of the function works the same way as your standard fibonacci calculator.
+  
+2. seq(n) calculates sequence S which involves concatenation
+
+  Concatentation merely means putting two strings together. For example, to concatenate 1 and 2, we would first convert both to
+  strings ("1" and "2") and combine them, resulting in "12". Everything else is relatively straightforward. Note that I keep the
+  length of the calculated value to 11 since its all the digits that we need.
+  
+3. summation of seq is essentially seq(0) + seq(1) + ... + seq(n)
+
+  This part took me the longest to understand since from the problem description, it seems that you only need two functions and 
+  only one sequence. The range goes to n+1 because python loops end one before the specified end value. If the range had been defined
+  to go to only n, python would have stopped the loop at n-1, meaning we missed the correct answer by seq(n).
+  
+Hope this helps!
