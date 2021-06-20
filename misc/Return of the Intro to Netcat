@@ -9,6 +9,6 @@ Writeup:
 Enter the command in your terminal. You will be told to run a command like
 python3 <(curl -sSL https://goo.gle/kctf-pow) solve s.AACF.AACx2DGKV9oMVssGilfnayNh
 
-Running it gives us a solution and entering it will gives us the flag:
+Running it gives us a solution and entering it into the terminal will gives us the flag:
 
 flag{the_cat_says_meow}
