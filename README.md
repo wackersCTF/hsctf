@@ -1,5 +1,5 @@
 # hsctf
-writeups for hsctf created by Wackers (https://ctftime.org/team/157027)
+writeups for hsctf created by wackers (https://ctftime.org/team/157027)
 
 ## algo:
 * not-really-math: wyl3waK
