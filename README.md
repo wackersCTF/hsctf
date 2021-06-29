@@ -1,7 +1,7 @@
 # hsctf
 writeups for hsctf created by wackers (https://ctftime.org/team/157027)
 
-below are challenges we solved and got correct in the competition. 
+below are challenges we solved and got correct in the competition. there might be partial writeups of challenges we didn't list below in the repo
 
 ## algo:
 * not-really-math: wyl3waK
